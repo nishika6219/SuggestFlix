@@ -78,9 +78,4 @@ if selected_movie and st.button('Recommend'):
                     with col:   
                         st.image(poster_url, width=130)
                         st.write(moviee_title)
-    #     cols = st.columns(len(recommendations))
-    #     for col, (_, row) in zip(cols, recommendations.iterrows()):
-    #         poster_url = fetch_poster(row['movie_id'])
-    #         with col:
-    #             st.image(poster_url, width=130)
-    #             st.write(row['title'])
+  
